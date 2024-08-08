@@ -33,6 +33,10 @@ models:
   tuto_dbt:
     # Config indicated by + and applies to all files under models/example/
     #example:
-     # +materialized: view
-     +database: postgres
-     +schema: staging
+     materialized: table
+     staging:
+          +schema: staging
+          materialized: view
+     core: 
+          +schema: core
+          materialized: table

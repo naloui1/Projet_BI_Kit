@@ -23,8 +23,9 @@ renamed_and_converted_columns as (
  select
     "FIQ_PES" as pesee_id,
     "FAMILLE_MATERIAUX" as famille_materiaux,
-    {{convert_date('"FIQ_DATE_TRI"') }} as date_tri,
-    "POIDS_VRAC" as poids_caracterise
+    {{ convert_date('"FIQ_DATE_TRI"') }} as date_tri,
+    {{ convert_float('"POIDS_VRAC"') }} as poids_caracterise
+    
  from table_temporaire
 )
 
