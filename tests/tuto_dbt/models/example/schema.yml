@@ -1,0 +1,9 @@
+
+version: 2
+
+models:
+  - name: my_model_for_staging
+    description: "rename column"
+
+
+
