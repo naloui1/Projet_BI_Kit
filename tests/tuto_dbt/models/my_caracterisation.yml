@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: my_caracterisation # nom du fichier sql
+    description: "get the useuful colums from caracterisation_exthanor.csv"
+
+

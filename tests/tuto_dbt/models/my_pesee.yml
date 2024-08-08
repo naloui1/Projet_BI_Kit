@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: my_pesee # nom du fichier sql
+    description: "get the useuful colums from exthanor.csv"
