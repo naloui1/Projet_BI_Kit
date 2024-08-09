@@ -78,9 +78,9 @@ Note: Lancer dbeaver et se connecter à la BD postgres en précisant le numéro 
   
   docker compose -f docker-compose-non-dev.yml up
 
-  6-c pour se connecter aux exemples de superset, ouvrir un onglet et écrire !!!!!!!!!
+  6-c pour se connecter aux exemples de superset, ouvrir un onglet et écrire http://localhost:8088/
 
-  6-d pour se connecter à notre BD postgres,  ouvrir un onglet et écrire !!!!!!!!!
+  6-d pour se connecter à notre BD postgres,  ouvrir un onglet et écrire l'adresse IP quon peut l'avor en tapant dans la commande: hostname -I
 
   
 
