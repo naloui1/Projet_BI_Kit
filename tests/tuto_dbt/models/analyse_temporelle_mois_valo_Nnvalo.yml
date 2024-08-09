@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: analyse_temporelle_mois_valo_Nnvalo # nom du fichier sql
+    description: "requette22"
+
+

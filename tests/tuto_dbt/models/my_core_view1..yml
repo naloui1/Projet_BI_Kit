@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: my_core_view1 # nom du fichier sql
+    description: "requette1"
+
+

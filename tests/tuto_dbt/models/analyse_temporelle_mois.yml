@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: analyse_temporelle_mois # nom du fichier sql
+    description: "requette1"
+
+
